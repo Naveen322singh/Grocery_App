@@ -17,6 +17,7 @@ Backend: The app uses Java to create a data model for the groceries, which inclu
 Frontend: The user interface is designed using XML, which includes a RecyclerView to display the list of groceries. Each item in the RecyclerView is represented by a custom layout that includes a TextView for the name and an ImageView for the image.
 Data Storage: The app uses a local database (e.g., Room Persistence Library) to store the list of groceries, which can be pre-populated or fetched from a remote API.
 Image Loading: The app uses a library such as Glide or Picasso to efficiently load and display the images for each grocery item.
+
 Key Features
 
 Efficient List Display: The RecyclerView is used to efficiently display the list of groceries, allowing for smooth scrolling and minimal memory usage.
